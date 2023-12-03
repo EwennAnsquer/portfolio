@@ -1,0 +1,20 @@
+.herobanner {
+    height: 100vh;
+    width: 100%;
+}
+
+.hContainer{
+    height: 90vh;
+    background-color: black;
+    color: #ffffff;
+    z-index: 10;
+    position: relative;
+    margin-top: -100px;
+    padding-top: 50vh;
+}
+  
+.hTitle{
+    margin-left: 5rem;
+    font-size: 5rem;
+    font-weight: bold;
+}

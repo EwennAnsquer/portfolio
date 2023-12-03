@@ -1,0 +1,19 @@
+.listeCertifications{
+    width: 100%;
+    height: 800px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    justify-content: space-around;
+}
+
+.cContainer{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: cadetblue;
+}
