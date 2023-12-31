@@ -7,10 +7,12 @@ export default function NavBar({ heroBannerHeight }) {
   const navbarRef = useRef(null);
 
   const changeBackground = () => {
-    if (window.scrollY >= heroBannerHeight - navbarRef.current.clientHeight * 2) {
-      setToggle(true);
-    } else {
-      setToggle(false);
+    if (navbarRef.current) {
+      if (window.scrollY >= heroBannerHeight - navbarRef.current.clientHeight * 2) {
+        setToggle(true);
+      } else {
+        setToggle(false);
+      }
     }
   };
 
