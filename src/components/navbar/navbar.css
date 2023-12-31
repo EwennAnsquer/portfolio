@@ -2,13 +2,15 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 5%;
     align-items: center;
     height: 100px;
     position: sticky;
     z-index: 10000;
     top: 0;
     background-color: transparent;
+    padding: 0 5%;
 }
 
 .black-bg{
@@ -17,6 +19,9 @@
 }
 
 .link{
+    padding: 0;
+    background: none;
+    border: none;
     color: white;
 }
 
