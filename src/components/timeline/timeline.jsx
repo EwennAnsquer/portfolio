@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './timeline.css'
 import HTMLIcon from '../icons/HTMLIcon'
 import PHPIcon from '../icons/PHPIcon'
@@ -7,8 +7,21 @@ import REACTIcon from "../icons/REACTIcon"
 import CSHARPIcon from "../icons/CSHARPIcon"
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
+import Galery from "../galery/galery"
+import imgSiteAp1 from "../../assets/galery/test.png"
+import imgSiteAp2 from "../../assets/galery/test2.png"
+import imgSiteAp3 from "../../assets/galery/test3.png"
 
 export default function Timeline() {
+  const [modalImageUrl, setModalImageUrl] = useState(null);
+
+  const openModal = (imageUrl) => {
+    setModalImageUrl(imageUrl);
+  };
+
+  const closeModal = () => {
+    setModalImageUrl(null);
+  };
   return (
     <div className='timeline' id='timeline'>
       <h2>TimeLine</h2>
@@ -26,6 +39,11 @@ export default function Timeline() {
           <p>
             Création d'un site web statique de manière individuel dans le but de présenter un métier de l'informatique.
           </p>
+          <Galery>
+            <img src={imgSiteAp3} style={{height:"80px", aspectRatio: "16/9"}} />
+            <img src={imgSiteAp2} style={{height:"80px", aspectRatio: "16/9"}} />
+            <img src={imgSiteAp1} style={{height:"80px", aspectRatio: "9/16"}} />
+          </Galery>
         </VerticalTimelineElement>
         <VerticalTimelineElement 
           className='vertical-timeline-element--work date' 
