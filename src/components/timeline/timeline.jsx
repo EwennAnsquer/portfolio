@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import './timeline.css'
 import HTMLIcon from '../icons/HTMLIcon'
 import PHPIcon from '../icons/PHPIcon'
@@ -8,20 +8,22 @@ import CSHARPIcon from "../icons/CSHARPIcon"
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
 import Galery from "../galery/galery"
-import imgSiteAp1 from "../../assets/galery/test.png"
-import imgSiteAp2 from "../../assets/galery/test2.png"
-import imgSiteAp3 from "../../assets/galery/test3.png"
+import imgAp1 from "../../assets/galery/test.png"
+import imgAccueilAp2 from "../../assets/galery/localhost_PshychoQuiz_accueil.php.png"
+import imgAdminAp2 from "../../assets/galery/localhost_PshychoQuiz_admin_.png"
+import imgAdminQuestionAp2 from "../../assets/galery/localhost_PshychoQuiz_admin_questions.php.png"
+import imgAdminStatsAp2 from "../../assets/galery/localhost_PshychoQuiz_admin_statistiques.php.png"
+import imgQuizAp2 from "../../assets/galery/localhost_PshychoQuiz_quiz.php.png"
+import imgResultatAp2 from "../../assets/galery/localhost_PshychoQuiz_resultat.php.png"
+import imgLoginAp3 from "../../assets/galery/login.png"
+import imgRapportsAp3 from "../../assets/galery/rapports.png"
+import imgCommandeAp3 from "../../assets/galery/commande.png"
+import imgCentreAp3 from "../../assets/galery/CentreRelaisColis.png"
+import imgClientAp3 from "../../assets/galery/Client.png"
+import imgParametreAp3 from "../../assets/galery/parametre.png"
+import imgNotificationAp3 from "../../assets/galery/notification.png"
 
 export default function Timeline() {
-  const [modalImageUrl, setModalImageUrl] = useState(null);
-
-  const openModal = (imageUrl) => {
-    setModalImageUrl(imageUrl);
-  };
-
-  const closeModal = () => {
-    setModalImageUrl(null);
-  };
   return (
     <div className='timeline' id='timeline'>
       <h2>TimeLine</h2>
@@ -40,12 +42,10 @@ export default function Timeline() {
             Création d'un site web statique de manière individuel dans le but de présenter un métier de l'informatique.
           </p>
           <Galery>
-            <img src={imgSiteAp3} style={{height:"80px", aspectRatio: "16/9"}} />
-            <img src={imgSiteAp2} style={{height:"80px", aspectRatio: "16/9"}} />
-            <img src={imgSiteAp1} style={{height:"80px", aspectRatio: "9/16"}} />
+            <img src={imgAp1} className='imgGalery' style={{aspectRatio: "9/16"}} alt="image du projet Site internet des métiers" title="image du projet Site internet des métiers"/>
           </Galery>
         </VerticalTimelineElement>
-        <VerticalTimelineElement 
+        {/* <VerticalTimelineElement 
           className='vertical-timeline-element--work date' 
           iconStyle={{ background: '#fff', boxShadow: 'none', display: "flex", justifyContent: "center", alignItems: "center", border: "4px solid black"}}
           icon={<HTMLIcon width={30}/>}
@@ -58,7 +58,9 @@ export default function Timeline() {
           <p>
             Création d'un site web statique en groupe dans le but de regrouper tous les sites web de tous les groupes de la classe de BTS SIO pour les visionner et les trier par catégorie.
           </p>
-        </VerticalTimelineElement>
+          <Galery>
+          </Galery>
+        </VerticalTimelineElement> */}
         <VerticalTimelineElement 
           className='vertical-timeline-element--work date' 
           iconStyle={{ background: '#fff', boxShadow: 'none', display: "flex", justifyContent: "center", alignItems: "center", border: "4px solid black"}}
@@ -72,6 +74,14 @@ export default function Timeline() {
           <p>
             Création d'un site web dynamique dans le but de créer une partie avec un quiz pour choisir entre réseau ou développement et une partie administrateur.
           </p>
+          <Galery>
+            <img src={imgAccueilAp2} className='imgGalery' style={{aspectRatio: "16/9"}} alt="image de l'accueil du projet PshychoQuiz" title="image de l'accueil du projet PshychoQuiz" />
+            <img src={imgQuizAp2} className='imgGalery' style={{aspectRatio: "9/16"}} alt="image de la page quiz du projet PshychoQuiz" title="image de la page quiz du projet PshychoQuiz"/>
+            <img src={imgResultatAp2} className='imgGalery' style={{aspectRatio: "16/9"}} alt="image de la page resultat du projet PshychoQuiz" title="image de la page resultat du projet PshychoQuiz"/>
+            <img src={imgAdminAp2} className='imgGalery' style={{aspectRatio: "16/9"}} alt="image de la page de login admin du projet PshychoQuiz" title="image de la page login admin du projet PshychoQuiz"/>
+            <img src={imgAdminStatsAp2} className='imgGalery' style={{aspectRatio: "9/16"}} alt="image de la page statistiques du projet PshychoQuiz" title="image de la page statistiques du projet PshychoQuiz"/>
+            <img src={imgAdminQuestionAp2} className='imgGalery' style={{aspectRatio: "16/9"}} alt="image de la page admin des questions du projet PshychoQuiz" title="image de la page admin desd questions du projet PshychoQuiz"/>
+          </Galery>
         </VerticalTimelineElement>
         <VerticalTimelineElement 
           className='vertical-timeline-element--work date' 
@@ -86,6 +96,15 @@ export default function Timeline() {
           <p>
             Création d'un site web dynamique dans le but de développer une application de gestion de colis pour optimiser les livraisons directes et via des centres de relais équipés de casiers intelligents.
           </p>
+          <Galery>
+            <img src={imgLoginAp3} className='imgGalery' style={{aspectRatio: "16/9"}} alt="image de l'accueil du projet PshychoQuiz" title="image de l'accueil du projet PshychoQuiz" />
+            <img src={imgRapportsAp3} className='imgGalery' style={{aspectRatio: "16/9"}} alt="image de la page quiz du projet PshychoQuiz" title="image de la page quiz du projet PshychoQuiz"/>
+            <img src={imgCommandeAp3} className='imgGalery' style={{aspectRatio: "16/9"}} alt="image de la page resultat du projet PshychoQuiz" title="image de la page resultat du projet PshychoQuiz"/>
+            <img src={imgCentreAp3} className='imgGalery' style={{aspectRatio: "16/9"}} alt="image de la page de login admin du projet PshychoQuiz" title="image de la page login admin du projet PshychoQuiz"/>
+            <img src={imgClientAp3} className='imgGalery' style={{aspectRatio: "16/9"}} alt="image de la page statistiques du projet PshychoQuiz" title="image de la page statistiques du projet PshychoQuiz"/>
+            <img src={imgParametreAp3} className='imgGalery' style={{aspectRatio: "16/9"}} alt="image de la page admin des questions du projet PshychoQuiz" title="image de la page admin desd questions du projet PshychoQuiz"/>
+            <img src={imgNotificationAp3} className='imgGalery' style={{aspectRatio: "16/9"}} alt="image de la page admin des questions du projet PshychoQuiz" title="image de la page admin desd questions du projet PshychoQuiz"/>
+          </Galery>
         </VerticalTimelineElement>
         <VerticalTimelineElement 
           className='vertical-timeline-element--work date' 
