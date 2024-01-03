@@ -56,6 +56,6 @@ main{
     border-width: 1px;
 }
   
-scrollbar-color: rgb(68, 68, 173);
+/* scrollbar-color: rgb(68, 68, 173);
 -ms-overflow-style: none;
-scrollbar-width: thin;
+scrollbar-width: thin; */
