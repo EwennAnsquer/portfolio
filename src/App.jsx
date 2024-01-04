@@ -29,9 +29,9 @@ function App() {
                 <Timeline />
                 {/* <Year id={"2022-2023"} nbProject={2} />
                 <Year id={"2023-2024"} nbProject={1} /> */}
+                <ListeCertifications />
                 <Veille />
                 <Avenir />
-                <ListeCertifications />
                 <Footer />
             </main>
         </>

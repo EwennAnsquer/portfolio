@@ -1,7 +1,6 @@
 .listeCertifications{
     width: 100%;
     height: 800px;
-    background-color: blueviolet;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,10 +9,10 @@
 }
 
 .cContainer{
-    width: 80%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: cadetblue;
+    gap: 10px;
 }
