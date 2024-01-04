@@ -32,12 +32,12 @@ export default function NavBar({ heroBannerHeight }) {
       <button className="link" onClick={() => scrollToSection('timeline')}>
         TimeLine
       </button>
-      <button className="link" onClick={() => scrollToSection('2022-2023')}>
+      {/* <button className="link" onClick={() => scrollToSection('2022-2023')}>
         2022-2023
       </button>
       <button className="link" onClick={() => scrollToSection('2023-2024')}>
         2023-2024
-      </button>
+      </button> */}
       <button className="link" onClick={() => scrollToSection('veille')}>
         ma Veille Informatique
       </button>

@@ -5,6 +5,8 @@ import PHPIcon from '../icons/PHPIcon'
 import SYMFONYIcon from "../icons/SYMFONYIcon"
 import REACTIcon from "../icons/REACTIcon"
 import CSHARPIcon from "../icons/CSHARPIcon"
+import WORDPRESSIcon from "../icons/WORDPRESSIcon"
+import JAVASCRIPTIcon from '../icons/JAVASCRIPTIcon'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
 import Galery from "../galery/galery"
@@ -22,6 +24,9 @@ import imgCentreAp3 from "../../assets/galery/CentreRelaisColis.png"
 import imgClientAp3 from "../../assets/galery/Client.png"
 import imgParametreAp3 from "../../assets/galery/parametre.png"
 import imgNotificationAp3 from "../../assets/galery/notification.png"
+import soleilAlpha1 from "../../assets/galery/soleilalpha1.png"
+import soleilAlpha2 from "../../assets/galery/soleilalpha2.png"
+import soleilAlpha3 from "../../assets/galery/soleilalpha3.png"
 
 export default function Timeline() {
   return (
@@ -31,7 +36,7 @@ export default function Timeline() {
         <VerticalTimelineElement 
           className='vertical-timeline-element--work date' 
           iconStyle={{ background: '#fff', boxShadow: 'none', display: "flex", justifyContent: "center", alignItems: "center", border: "4px solid black"}}
-          icon={<HTMLIcon width={30}/>}
+          icon={<HTMLIcon width={"50%"}/>}
           date='15/09/22 à 21/10/22'
           contentArrowStyle={{ borderRight: '7px solid #000' }}
           contentStyle={{backgroundColor: "#000", color: "#fff", boxShadow: "none"}}
@@ -64,7 +69,7 @@ export default function Timeline() {
         <VerticalTimelineElement 
           className='vertical-timeline-element--work date' 
           iconStyle={{ background: '#fff', boxShadow: 'none', display: "flex", justifyContent: "center", alignItems: "center", border: "4px solid black"}}
-          icon={<PHPIcon width={35}/>}
+          icon={<PHPIcon width={"60%"}/>}
           date='05/01/23 à 14/04/23'
           contentArrowStyle={{ borderRight: '7px solid #000' }}
           contentStyle={{backgroundColor: "#000", color: "#fff", boxShadow: "none"}}
@@ -86,7 +91,26 @@ export default function Timeline() {
         <VerticalTimelineElement 
           className='vertical-timeline-element--work date' 
           iconStyle={{ background: '#fff', boxShadow: 'none', display: "flex", justifyContent: "center", alignItems: "center", border: "4px solid black"}}
-          icon={<SYMFONYIcon width={30}/>}
+          icon={<WORDPRESSIcon width={"60%"}/>}
+          date='30/05/23 à 01/07/23'
+          contentArrowStyle={{ borderRight: '7px solid #000' }}
+          contentStyle={{backgroundColor: "#000", color: "#fff", boxShadow: "none"}}
+          dateClassName={ "date" }
+        >
+          <h3 className="vertical-timeline-element-title">Stage Première Année : Jérôme Perrot</h3>
+          <p>
+            Apprentissage et création de pages wordpress.
+          </p>
+          <Galery>
+            <img src={soleilAlpha1} className='imgGalery' style={{aspectRatio: "9/16"}} alt="image d'une page fait avec le builder Divi" title="image d'une page fait avec le builder Divi" />
+            <img src={soleilAlpha2} className='imgGalery' style={{aspectRatio: "9/16"}} alt="image du builder Divi" title="image du builder Divi"/>
+            <img src={soleilAlpha3} className='imgGalery' style={{aspectRatio: "16/9"}} alt="image d'une page wordpress" title="image d'une page wordpress"/>
+          </Galery>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement 
+          className='vertical-timeline-element--work date' 
+          iconStyle={{ background: '#fff', boxShadow: 'none', display: "flex", justifyContent: "center", alignItems: "center", border: "4px solid black"}}
+          icon={<SYMFONYIcon width={"60%"}/>}
           date='04/09/23 à 19/12/23'
           contentArrowStyle={{ borderRight: '7px solid #000' }}
           contentStyle={{backgroundColor: "#000", color: "#fff", boxShadow: "none"}}
@@ -109,7 +133,7 @@ export default function Timeline() {
         <VerticalTimelineElement 
           className='vertical-timeline-element--work date' 
           iconStyle={{ background: '#fff', boxShadow: 'none', display: "flex", justifyContent: "center", alignItems: "center" , border: "4px solid black"}}
-          icon={<REACTIcon width={35}/>}
+          icon={<REACTIcon width={"70%"}/>}
           date='30/11/23 à PAS FINI'
           contentArrowStyle={{ borderRight: '7px solid #000' }}
           contentStyle={{backgroundColor: "#000", color: "#fff", boxShadow: "none"}}
@@ -125,7 +149,24 @@ export default function Timeline() {
         <VerticalTimelineElement 
           className='vertical-timeline-element--work date' 
           iconStyle={{ background: '#fff', boxShadow: 'none', display: "flex", justifyContent: "center", alignItems: "center", border: "4px solid black"}}
-          icon={<CSHARPIcon width={35}/>}
+          icon={<JAVASCRIPTIcon width={"50%"}/>}
+          date='08/01/23 à 24/02/24'
+          contentArrowStyle={{ borderRight: '7px solid #000' }}
+          contentStyle={{backgroundColor: "#000", color: "#fff", boxShadow: "none"}}
+          dateClassName={ "date" }
+        >
+          <h3 className="vertical-timeline-element-title">Stage Deuxième Année : Exail Robotics</h3>
+          <p>
+            Travail sur une api javascript pour faire le lien entre un formulaire et un environement 3D.
+          </p>
+          <Galery>
+            <p>à rajouter par la suite</p>
+          </Galery>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement 
+          className='vertical-timeline-element--work date' 
+          iconStyle={{ background: '#fff', boxShadow: 'none', display: "flex", justifyContent: "center", alignItems: "center", border: "4px solid black"}}
+          icon={<CSHARPIcon width={"60%"}/>}
           date='PAS ENCORE DE DATE'
           contentArrowStyle={{ borderRight: '7px solid #000' }}
           contentStyle={{backgroundColor: "#000", color: "#fff", boxShadow: "none"}}

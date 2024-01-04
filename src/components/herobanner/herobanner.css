@@ -1,41 +1,40 @@
 .herobanner {
-    height: 90vh;
-    position: relative;
-    top: -100px;
-    width: 100%;
-  }
-  
-  .hContainer {
-    height: 100vh;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-  }
-  
-  .video-background {
-    position: absolute;
-    top: -100px;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-  }
-  
-  .hTitle {
-    margin-left: 5rem;
-    font-size: 5rem;
-    font-weight: bold;
-    color: #ffffff;
-    z-index: 10;
-  }
+  height: 90vh;
+  position: relative;
+  top: -100px;
+  width: 100%;
+}
 
-  .overlay{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: -100px;
-    left: 0;
-    background-color: rgba(0,0,0,0.7)
-  }
+.hContainer {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.video-background {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hTitle {
+  margin-left: 5rem;
+  font-size: 5rem;
+  font-weight: bold;
+  color: #ffffff;
+  z-index: 10;
+}
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -100px;
+  left: 0;
+  background-color: rgba(0,0,0,0.7);
+}
