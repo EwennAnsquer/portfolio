@@ -8,6 +8,7 @@ const HeroBanner = React.forwardRef((props, ref) => {
       <div className='hContainer'>
         <video className='video-background' src={video} autoPlay muted loop/>
         <h1 className='hTitle'>Ewenn Ansquer</h1>
+        <div className="overlay"></div>
       </div>
     </div>
   );
