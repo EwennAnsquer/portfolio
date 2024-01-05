@@ -38,14 +38,14 @@ export default function NavBar({ heroBannerHeight }) {
       <button className="link" onClick={() => scrollToSection('2023-2024')}>
         2023-2024
       </button> */}
-      <button className="link" onClick={() => scrollToSection('veille')}>
-        ma Veille Informatique
-      </button>
-      <button className="link" onClick={() => scrollToSection('avenir')}>
-        mon Avenir
-      </button>
       <button className="link" onClick={() => scrollToSection('certif')}>
         Certifications
+      </button>
+      <button className="link" onClick={() => scrollToSection('veille')}>
+        Veille Informatique
+      </button>
+      <button className="link" onClick={() => scrollToSection('avenir')}>
+        Avenir
       </button>
       <button className="link" onClick={() => scrollToSection('contact')}>
         Contact
