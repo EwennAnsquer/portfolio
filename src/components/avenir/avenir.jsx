@@ -1,10 +1,10 @@
 import React from 'react'
 import "./avenir.css"
 
-export default function Avenir() {
+export default function Avenir({name}) {
   return (
-    <div className='avenir' id='avenir'>
-        <h1>Mon Avenir</h1>
+    <div className='avenir'>
+        <h1>{name}</h1>
     </div>
   )
 }
