@@ -15,7 +15,7 @@ export default function Certification({name,date,file}) {
           {file && file.length > 0 ? (
             file.map((item,index) => (
               <a key={index} href={`/portfolio/public/certifications/${item[1]}.pdf`} name={item[0]} target='_blank'>
-                <PDFIcon width={"20pxpx"} /> {item[0]}.pdf
+                <PDFIcon width={"20px"} /> {item[0]}.pdf
               </a>
             ))
           ) : (
