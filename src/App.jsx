@@ -80,7 +80,6 @@ function App() {
                         </ul>
                     </div>
                 </Footer>
-                {/* lien vers CV, github, adresse mail, telephone, linkedin, lien vers tableau epreuve E4 */}
             </main>
         </>
     )
