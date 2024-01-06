@@ -11,6 +11,11 @@ import Footer from "./components/footer/footer"
 import Certification from './components/certification/certification'
 import { useState, useLayoutEffect, useRef } from 'react';
 
+import MAILICon from "./components/icons/MAILIcon"
+import GITHUBIcon from "./components/icons/GITHUBIcon"
+import LINKEDINIcon from "./components/icons/LINKEDINIcon"
+import PDFIcon from './components/icons/PDFIcon';
+
 function App() {
 
     const [heroBannerHeight, setHeroBannerHeight] = useState(0);
@@ -42,7 +47,40 @@ function App() {
                     <Avenir name="École d'ingénieur" />
                     <Avenir name="ENSSAT Lannion" />
                 </Liste>
-                <Footer />
+                <Footer>
+                    <div className="fContainer">
+                        <h2>Contact</h2>
+                        <ul>
+                            <li>
+                                <MAILICon height={"20px"}/>
+                                <p>ansquer.ewenn@gmail.com</p>
+                            </li>
+                            <li>
+                                <a href='https://github.com/EwennAnsquer' target='_blank'>
+                                    <GITHUBIcon height={"30px"}/>
+                                    <p>github.com/EwennAnsquer</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href='https://www.linkedin.com/in/ewenn-ansquer-87412422b/' target='_blank'>
+                                    <LINKEDINIcon height={"30px"} filter={"invert(100%)"}/>
+                                    <p>linkedin.com/in/ewenn-ansquer-87412422b/</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href={`/portfolio/public/cv/CV_Ewenn_Ansquer.pdf`} target='_blank'>
+                                    <PDFIcon width={"20px"} /> CV.pdf
+                                </a>
+                            </li>
+                            <li>
+                                <a href={`/portfolio/public/tableau_epreuve_E4/tableau.pdf`} target='_blank'>
+                                    <PDFIcon width={"20px"} /> Tableau Épreuve E4.pdf
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </Footer>
+                {/* lien vers CV, github, adresse mail, telephone, linkedin, lien vers tableau epreuve E4 */}
             </main>
         </>
     )
