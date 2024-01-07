@@ -1,5 +1,31 @@
 .veille{
+    color: white;
+    background-color: black;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.veille h1{
+    font-size: 50px;
+    font-weight: 800;
+    padding-bottom: 50px;
+}
+
+.veilleContainer{
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 20px 0;
+    gap: 20px;
     width: 100%;
-    height: 200px;
-    background-color: yellow;
+}
+
+.veilleIframe{
+    width: 560px;
+    height: 315px;
 }
