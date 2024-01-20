@@ -103,12 +103,12 @@ function App() {
                                 </a>
                             </li>
                             <li>
-                                <a href={`/portfolio/public/cv/CV_Ewenn_Ansquer.pdf`} target='_blank'>
+                                <a href={`${process.env.PUBLIC_URL}/portfolio/public/cv/CV_Ewenn_Ansquer.pdf`} target='_blank'>
                                     <PDFIcon width={"20px"} /> CV.pdf
                                 </a>
                             </li>
                             <li>
-                                <a href={`/portfolio/public/tableau_epreuve_E4/tableau.pdf`} target='_blank'>
+                                <a href={`${process.env.PUBLIC_URL}/public/tableau_epreuve_E4/tableau.pdf`} target='_blank'>
                                     <PDFIcon width={"20px"} /> Tableau Épreuve E4.pdf
                                 </a>
                             </li>
