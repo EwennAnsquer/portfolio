@@ -37,7 +37,7 @@ function App() {
                 {/* <Year id={"2022-2023"} nbProject={2} />
                 <Year id={"2023-2024"} nbProject={1} /> */}
                 <Liste name="Certifications" Id="certif" fontSize="50px" fontWeigth="800">
-                    <Certification name="Ansi SecNumAcademie" date="12/11/22" file={[["Ansi_SecNumAcademie", "Ansi_SecNumAcademie"]]}/>
+                    <Certification name="Ansi SecNumAcademie" date="12/11/22" file={[["Ansi_SecNumAcademie", "https://dochub.com/m/shared-document/eansquer-ledantec/qA8ldYxVEkAZNZ8R6MJrpP/ansi-secnumacademie-pdf?dt=hVVuGk6J6Ai7xBVLac1B"]]}/>
                     <Certification name="CNIL" date="18/09/22 et 27/09/22" file={[["Certificat_CNIL_Module1","Certificat_CNIL_Module1"],["Certificat_CNIL_Module2","Certificat_CNIL_Module2"],["Certificat_CNIL_Module3","Certificat_CNIL_Module3"]]}/>
                     <Certification name="Pix" date="19/01/23" file={[["pix","pix"]]}/> {/* nom afficher sur le lien puis nom du fichier dans dossier certifications*/}
                 </Liste>
