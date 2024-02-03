@@ -2,6 +2,8 @@ import './App.css'
 import './font.css'
 import HeroBanner from './components/herobanner/herobanner';
 import Navbar from "./components/navbar/navbar";
+import Presentation from './components/presentation/presentation';
+import Skills from './components/skills/skills'
 import Timeline from "./components/timeline/timeline";
 import Year from "./components/year/year"
 import Veille from "./components/veille/veille"
@@ -33,9 +35,9 @@ function App() {
             <main>
                 <Navbar heroBannerHeight={heroBannerHeight}/>
                 <HeroBanner ref={heroBannerRef}/>
+                <Presentation />
+                <Skills />
                 <Timeline />
-                {/* <Year id={"2022-2023"} nbProject={2} />
-                <Year id={"2023-2024"} nbProject={1} /> */}
                 <Liste name="Certifications" Id="certif" fontSize="50px" fontWeigth="800">
                     <Certification name="Ansi SecNumAcademie" date="12/11/22" file={[["Ansi_SecNumAcademie", "https://dochub.com/m/shared-document/eansquer-ledantec/qA8ldYxVEkAZNZ8R6MJrpP/ansi-secnumacademie-pdf?dt=hVVuGk6J6Ai7xBVLac1B"]]}/>
                     <Certification name="CNIL" date="18/09/22 et 27/09/22" file={[["Certificat_CNIL_Module1","https://dochub.com/m/shared-document/eansquer-ledantec/r4D6EkZVZJjlYA9VpQXW7O/certificat-cnil-module1-pdf?dt=QknAzcY4rzwTx2vG1paj"],["Certificat_CNIL_Module2","https://dochub.com/m/shared-document/eansquer-ledantec/jo3xELpR3A8k5YkVJBa7nr/certificat-cnil-module2-pdf?dt=uyN427-XjxExivKG7TPL"],["Certificat_CNIL_Module3","https://dochub.com/m/shared-document/eansquer-ledantec/Xv7zYW5RnlX3rd0V2A9egx/certificat-cnil-module3-pdf?dt=QpTyTaVtPa77iBrh1G5o"]]}/>

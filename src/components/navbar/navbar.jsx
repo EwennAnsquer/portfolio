@@ -29,15 +29,15 @@ export default function NavBar({ heroBannerHeight }) {
 
   return (
     <div className={`navbar ${toggle ? 'black-bg' : ''}`} ref={navbarRef}>
+      <button className="link" onClick={() => scrollToSection('presentation')}>
+        Présentation
+      </button>
+      <button className="link" onClick={() => scrollToSection('skills')}>
+        Compétences
+      </button>
       <button className="link" onClick={() => scrollToSection('timeline')}>
         TimeLine
       </button>
-      {/* <button className="link" onClick={() => scrollToSection('2022-2023')}>
-        2022-2023
-      </button>
-      <button className="link" onClick={() => scrollToSection('2023-2024')}>
-        2023-2024
-      </button> */}
       <button className="link" onClick={() => scrollToSection('certif')}>
         Certifications
       </button>
