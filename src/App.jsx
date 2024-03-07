@@ -79,10 +79,17 @@ function App() {
                     </div>
                 </Veille>
                 <Liste name="Avenir" Id="avenir" fontSize="50px" fontWeigth="800">
-                    <Avenir name="Cnam Sécurité Défense Saint-Brieuc"/>
-                    <Avenir name="Bachelor Sécurité Informatique Rennes"/>
-                    <Avenir name="École d'ingénieur" />
-                    <Avenir name="ENSSAT Lannion" />
+                    <Avenir name="Cnam Sécurité Défense Saint-Brieuc" lieu="22400 PLOUFRAGAN" formation="Informatique & Réseaux" />
+                    <Avenir name="Pôle Sup de La Salle" lieu="35706 RENNES" formation="Bachelor Sécurité Informatique" />
+                    <Avenir name="ENSSAT" lieu="22300 LANNION" formation="Informatique" />
+                    <Avenir name="IMT Atlantique" lieu="35576 Cesson-Sévigné" formation="Ingénierie Logicielle" />
+                    <Avenir name="IMT Mines Alès" lieu="30100 Alès" formation="Informatique et Réseaux Parcours Développement Logiciel" />
+                    <Avenir name="IMT Nord Europe" lieu="59650 Villeneuve-d’Ascq" formation="Informatique et Télécommunications" />
+                    <Avenir name="Télécom Nancy" lieu="54600 Villers-lès-Nancy" formation="Ingénieur en Informatique" />
+                    <Avenir name="Télécom Saint-Etienne" lieu="42000 Saint-Etienne" formation="Data Engineering" />
+                    <Avenir name="Télécom SudParis" lieu="91011 Evry" formation="Informatique & Réseaux" />
+                    <Avenir name="Licence 3" lieu="35042 RENNES" formation="mention Informatique parcours Informatique" />
+                    <Avenir name="ESIR" lieu="35042 RENNES" formation="spécialité informatique 1ère année" />
                 </Liste>
                 <Footer>
                     <div className="fContainer">
