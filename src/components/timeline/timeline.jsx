@@ -27,6 +27,8 @@ import imgNotificationAp3 from "../../assets/galery/notification.png"
 import soleilAlpha1 from "../../assets/galery/soleilalpha1.png"
 import soleilAlpha2 from "../../assets/galery/soleilalpha2.png"
 import soleilAlpha3 from "../../assets/galery/soleilalpha3.png"
+import efcar from "../../assets/galery/efcar.png"
+import efcarScn from "../../assets/galery/efcar-scn.jpg"
 
 export default function Timeline() {
   return (
@@ -141,10 +143,11 @@ export default function Timeline() {
         >
           <h3 className="vertical-timeline-element-title">Stage Deuxième Année : Exail Robotics</h3>
           <p>
-            Travail sur une api javascript pour faire le lien entre un formulaire et un environement 3D.
+            Ajout d'un bouton dans la bar de navigation uniquement accessible lors de la phase de configuration pour accéder à une interface pour permettre la modification (déplacement, rotation, pourcentage de chance d'activation et distance d'activation) ainsi que le chargement/sauvegarde de ses modification sur tous les objets présent dans les scénarios dans l'environement 3D. Le stage à été réaliser en javascript en solitaire avec des réunion avec le chef de projet/commercial/developpeur/graphiste sur l'avancé de mon travail.
           </p>
           <Galery>
-            <p>à rajouter par la suite</p>
+            <img src={efcar} className='imgGalery' style={{aspectRatio: "16/9"}} alt="image d'illustration du simulateur uttilisé" title="image d'illustration du simulateur uttilisé" />
+            <img src={efcarScn} className='imgGalery' style={{aspectRatio: "16/9"}} alt="image d'illustration de l'environnement 3D avec un scénario activé" title="image d'illustration de l'environnement 3D avec un scénario activé"/>
           </Galery>
         </VerticalTimelineElement>
         <VerticalTimelineElement 
