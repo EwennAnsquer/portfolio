@@ -47,9 +47,6 @@ function App() {
                     <YTBIcon width={"200px"} />
                     <div className="veilleContainer">
                         <div className="veilleIframe">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/4S9jVV1k-rA?si=A7du4z6DTKWmv6Bz" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-                        </div>
-                        <div className="veilleIframe">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/W_UQHr49Tvo?si=fBqdxH_6yz6iM5Uw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                         </div>
                         <div className="veilleIframe">
@@ -57,9 +54,6 @@ function App() {
                         </div>
                         <div className="veilleIframe">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/AQKYSaAvnKs?si=mxjw6ZCx6ONeCSQs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-                        </div>
-                        <div className="veilleIframe">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/EQJfDLENYnU?si=kDEUZPn0ZCjtUe6A" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                         </div>
                         <div className="veilleIframe">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/71UbDN4csas?si=JscD2B_Yt9P0mk-7" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
@@ -117,8 +111,18 @@ function App() {
                                 </a>
                             </li>
                             <li>
-                                <a href={`https://dochub.com/m/shared-document/eansquer-ledantec/Zxz7E3jVB0A4NqDRlWd2G8/tableau-pdf?dt=mhHgtyQeaNRmzXx_fTTv`} target='_blank'>
+                                <a href={`https://dochub.com/m/shared-document/ansquer-ewenn/qd0E4NeKgrg60AdRJ9LYyj/tableau-de-synthese-epreuve-e4-bts-sio-2022-pdf?dt=GZisVsJX2xDyEqJyE6iq`} target='_blank'>
                                     <PDFIcon width={"20px"} /> Tableau Épreuve E4.pdf
+                                </a>
+                            </li>
+                            <li>
+                                <a href={`https://dochub.com/m/shared-document/ansquer-ewenn/Xv7zYW5RnloEmy9V2A9egx/attestation-stage-1er-annee-bts-pdf?dt=j6W3za3CXz6uwztU7aqA`} target='_blank'>
+                                    <PDFIcon width={"20px"} /> Attestation-Stage-1er-Année.pdf
+                                </a>
+                            </li>
+                            <li>
+                                <a href={`https://dochub.com/m/shared-document/ansquer-ewenn/gp5nv1EK7EymajowGlbo0J/attestation-stage-2eme-annee-bts-pdf?dt=js_pru14aitvxgEvmf14`} target='_blank'>
+                                    <PDFIcon width={"20px"} /> Attestation-Stage-2eme-Année.pdf
                                 </a>
                             </li>
                         </ul>

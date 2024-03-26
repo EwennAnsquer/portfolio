@@ -45,9 +45,9 @@ export default function Timeline() {
           dateClassName={ "date" }
         >
           <h3 className="vertical-timeline-element-title">AP1 : Site internet des métiers</h3>
-          <p>
+          {/* <p>
             Création d'un site web statique de manière individuelle dans le but de présenter un métier de l'informatique. Pour ce projet, j'ai utilisé des langages web comme HTML, CSS et JavaScript et a été réalisé pendant la première année de BTS SIO. Pour ce projet, j'ai choisi le métier de développer front-end, car développer des sites internet a toujours été une activité que j'ai beaucoup réalisé ces dernières années. J'ai choisi de partir sur un thème clair et j'ai choisi une couleur principale que j'ai déclinée en plusieurs variantes et j'ai ensuite réalisé le reste avec du noir ou du blanc.
-          </p>
+          </p> */}
           <Galery>
             <img src={imgAp1} className='imgGalery' style={{aspectRatio: "9/16"}} alt="image du projet Site internet des métiers" title="image du projet Site internet des métiers"/>
           </Galery>
@@ -62,9 +62,9 @@ export default function Timeline() {
           dateClassName={ "date" }
         >
           <h3 className="vertical-timeline-element-title">AP2 PsychoQuiz : Site de quiz </h3>
-          <p>
+          {/* <p>
             Création d'un site web dynamique dans le but de créer une partie avec un quiz pour choisir entre réseau ou développement et une partie administrateur. Ce projet a été réalisé avec une équipe de trois personnes et constitue la deuxième et dernier projet de la première année de BTS SIO. Nous avons utilisé les langages PHP, HTML, CSS et JavaScript ainsi que la librairie BootStrap lors de la réalisation de celui-ci. La première partie du site est le quiz qui a été réalisé pour que l'utilisateur reste anonyme. La deuxième partie du site correspond à un dashboard uniquement accessible par les administrateurs pour visualiser des statistiques, monitorer les utilisateurs et les questions.
-          </p>
+          </p> */}
           <Galery>
             <img src={imgAccueilAp2} className='imgGalery' style={{aspectRatio: "16/9"}} alt="image de l'accueil du projet PshychoQuiz" title="image de l'accueil du projet PshychoQuiz" />
             <img src={imgQuizAp2} className='imgGalery' style={{aspectRatio: "9/16"}} alt="image de la page quiz du projet PshychoQuiz" title="image de la page quiz du projet PshychoQuiz"/>
@@ -84,9 +84,9 @@ export default function Timeline() {
           dateClassName={ "date" }
         >
           <h3 className="vertical-timeline-element-title">Stage Première Année : Jérôme Perrot</h3>
-          <p>
+          {/* <p>
             Apprentissage et création de pages WordPress. Ce stage a été réalisé avec un entrepreneur indépendant du nom de Jérôme Perrot. Le stage a été effectué en distanciel. Durant le stage, j'ai commencé par me former sur WordPress en suivant des tutos sur le site officiel de WordPress destiné à m'apprendre les bases. Puis j'ai appris la création de plugin pour WordPress en PHP et React. Par la suite, j'ai appris utiliser le thème WordPress Divi qui est constructeur de pages visuel avec de nombreuses fonctionnalités de personnalisation pour la conception de sites web.
-          </p>
+          </p> */}
           <Galery>
             <img src={soleilAlpha1} className='imgGalery' style={{aspectRatio: "9/16"}} alt="image d'une page fait avec le builder Divi" title="image d'une page fait avec le builder Divi" />
             <img src={soleilAlpha2} className='imgGalery' style={{aspectRatio: "9/16"}} alt="image du builder Divi" title="image du builder Divi"/>
@@ -103,9 +103,9 @@ export default function Timeline() {
           dateClassName={ "date" }
         >
           <h3 className="vertical-timeline-element-title">AP3 Application de gestion de la logistique de colis</h3>
-          <p>
+          {/* <p>
             Création d'un site web dynamique dans le but de développer une application de gestion de colis pour optimiser les livraisons directes et via des centres de relais équipés de casiers intelligents. Le projet a été réalisé par une équipe de trois personnes et constitue le premier projet de la deuxième année de BTS SIO. Pour mener à bien ce projet, nous avons utilisé les langages HTML, CSS avec la librairie BootStrap, JavaScript et PHP avec le framework Symphony. Le site est sous la forme d'un dashboard permettant de voir des statistiques, de visualiser des données sur les différents colis, commandes, clients, et centre de relais colis et villes avec une map interactive. Le site comporte aussi une section paramètre ainsi qu'une section notifications pour les notifications in-app.
-          </p>
+          </p> */}
           <Galery>
             <img src={imgLoginAp3} className='imgGalery' style={{aspectRatio: "16/9"}} alt="image de l'accueil du projet PshychoQuiz" title="image de l'accueil du projet PshychoQuiz" />
             <img src={imgRapportsAp3} className='imgGalery' style={{aspectRatio: "16/9"}} alt="image de la page quiz du projet PshychoQuiz" title="image de la page quiz du projet PshychoQuiz"/>
@@ -126,11 +126,11 @@ export default function Timeline() {
           dateClassName={ "date" }
         >
           <h3 className="vertical-timeline-element-title">Mise en place d'un portfolio</h3>
-          <p>
+          {/* <p>
             Création d'un portfolio de manière individuel dans le but de retracer le parcour de proffessionnalisation et décrit les réalisations professionnelles élaborées au
             cours de la formation et l‟acquisition des compétences décrites dans le bloc de compétences « Support et mise à
             disposition de services informatiques ».
-          </p>
+          </p> */}
         </VerticalTimelineElement>
         <VerticalTimelineElement 
           className='vertical-timeline-element--work date' 
@@ -142,9 +142,9 @@ export default function Timeline() {
           dateClassName={ "date" }
         >
           <h3 className="vertical-timeline-element-title">Stage Deuxième Année : Exail Robotics</h3>
-          <p>
+          {/* <p>
             Ajout d'un bouton dans la bar de navigation uniquement accessible lors de la phase de configuration pour accéder à une interface pour permettre la modification (déplacement, rotation, pourcentage de chance d'activation et distance d'activation) ainsi que le chargement/sauvegarde de ses modification sur tous les objets présent dans les scénarios dans l'environement 3D. Le stage à été réaliser en javascript en solitaire avec des réunion avec le chef de projet/commercial/developpeur/graphiste sur l'avancé de mon travail.
-          </p>
+          </p> */}
           <Galery>
             <img src={efcar} className='imgGalery' style={{aspectRatio: "16/9"}} alt="image d'illustration du simulateur uttilisé" title="image d'illustration du simulateur uttilisé" />
             <img src={efcarScn} className='imgGalery' style={{aspectRatio: "16/9"}} alt="image d'illustration de l'environnement 3D avec un scénario activé" title="image d'illustration de l'environnement 3D avec un scénario activé"/>
@@ -154,15 +154,15 @@ export default function Timeline() {
           className='vertical-timeline-element--work date' 
           iconStyle={{ background: '#fff', boxShadow: 'none', display: "flex", justifyContent: "center", alignItems: "center", border: "4px solid black"}}
           icon={<CSHARPIcon width={"60%"}/>}
-          date='PAS ENCORE DE DATE'
+          date='11/03/2024 à 22/04/2024'
           contentArrowStyle={{ borderRight: '7px solid #000' }}
           contentStyle={{backgroundColor: "#000", color: "#fff", boxShadow: "none"}}
           dateClassName={ "date" }
         >
-          <h3 className="vertical-timeline-element-title">AP4 pas encore fait</h3>
-          <p>
+          <h3 className="vertical-timeline-element-title">AP4 Application Point de Fidélité</h3>
+          {/* <p>
             Et bas ducoup je sais pas.
-          </p>
+          </p> */}
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
