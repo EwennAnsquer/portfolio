@@ -17,7 +17,6 @@
     cursor: crosshair;
     overflow: auto;
     scroll-behavior: scroll;
-    aspect-ratio: 16/9;
     max-width: 80vw;
     max-height: 80vh;
 }

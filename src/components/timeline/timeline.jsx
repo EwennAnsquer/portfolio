@@ -7,6 +7,8 @@ import REACTIcon from "../icons/REACTIcon"
 import CSHARPIcon from "../icons/CSHARPIcon"
 import WORDPRESSIcon from "../icons/WORDPRESSIcon"
 import JAVASCRIPTIcon from '../icons/JAVASCRIPTIcon'
+import NOKIAIcon from '../icons/NOKIAIcon'
+import ARDUINOIcon from '../icons/ARDUINOIcon'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
 import Galery from "../galery/galery"
@@ -29,12 +31,50 @@ import soleilAlpha2 from "../../assets/galery/soleilalpha2.png"
 import soleilAlpha3 from "../../assets/galery/soleilalpha3.png"
 import efcar from "../../assets/galery/efcar.png"
 import efcarScn from "../../assets/galery/efcar-scn.jpg"
+import ap4Login from "../../assets/galery/ap4-login.png"
+import ap4Inscription from "../../assets/galery/ap4-register.png"
+import ap4Mainpage from "../../assets/galery/ap4-mainpage.png"
+import ap4Plus from "../../assets/galery/ap4-plus.png"
+import ap4Commande from "../../assets/galery/ap4-commande.png"
 
 export default function Timeline() {
   return (
     <div className='timeline' id='timeline'>
       <h2>TimeLine</h2>
       <VerticalTimeline lineColor='#000'>
+      <VerticalTimelineElement 
+          className='vertical-timeline-element--work date' 
+          iconStyle={{ background: '#fff', boxShadow: 'none', display: "flex", justifyContent: "center", alignItems: "center", border: "4px solid black"}}
+          icon={<NOKIAIcon width={"80%"}/>}
+          date='15/09/22 à 21/10/22'
+          contentArrowStyle={{ borderRight: '7px solid #000' }}
+          contentStyle={{backgroundColor: "#000", color: "#fff", boxShadow: "none"}}
+          dateClassName={ "date" }
+        >
+          <h3 className="vertical-timeline-element-title">Stage de découverte 3eme : Nokia</h3>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement 
+          className='vertical-timeline-element--work date' 
+          iconStyle={{ background: '#fff', boxShadow: 'none', display: "flex", justifyContent: "center", alignItems: "center", border: "4px solid black"}}
+          icon={<ARDUINOIcon width={"60%"}/>}
+          date='15/09/22 à 21/10/22'
+          contentArrowStyle={{ borderRight: '7px solid #000' }}
+          contentStyle={{backgroundColor: "#000", color: "#fff", boxShadow: "none"}}
+          dateClassName={ "date" }
+        >
+          <h3 className="vertical-timeline-element-title">Seconde Lycée Le Dantec option ICN</h3>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement 
+          className='vertical-timeline-element--work date' 
+          iconStyle={{ background: '#fff', boxShadow: 'none', display: "flex", justifyContent: "center", alignItems: "center", border: "4px solid black"}}
+          icon={<ARDUINOIcon width={"60%"}/>}
+          date='15/09/22 à 21/10/22'
+          contentArrowStyle={{ borderRight: '7px solid #000' }}
+          contentStyle={{backgroundColor: "#000", color: "#fff", boxShadow: "none"}}
+          dateClassName={ "date" }
+        >
+          <h3 className="vertical-timeline-element-title">Première et Terminale STI2D option SIN</h3>
+        </VerticalTimelineElement>
         <VerticalTimelineElement 
           className='vertical-timeline-element--work date' 
           iconStyle={{ background: '#fff', boxShadow: 'none', display: "flex", justifyContent: "center", alignItems: "center", border: "4px solid black"}}
@@ -120,7 +160,7 @@ export default function Timeline() {
           className='vertical-timeline-element--work date' 
           iconStyle={{ background: '#fff', boxShadow: 'none', display: "flex", justifyContent: "center", alignItems: "center" , border: "4px solid black"}}
           icon={<REACTIcon width={"70%"}/>}
-          date='30/11/23 à PAS FINI'
+          date='30/11/23 à 28/03/24'
           contentArrowStyle={{ borderRight: '7px solid #000' }}
           contentStyle={{backgroundColor: "#000", color: "#fff", boxShadow: "none"}}
           dateClassName={ "date" }
@@ -160,9 +200,13 @@ export default function Timeline() {
           dateClassName={ "date" }
         >
           <h3 className="vertical-timeline-element-title">AP4 Application Point de Fidélité</h3>
-          {/* <p>
-            Et bas ducoup je sais pas.
-          </p> */}
+          <Galery>
+            <img src={ap4Login} className='imgGalery' style={{aspectRatio: "9/20"}} alt="image de la page de login ap4" title="image de la page de login ap4" />
+            <img src={ap4Inscription} className='imgGalery' style={{aspectRatio: "9/20"}} alt="image de la page d'inscription du projet ap4" title="image de la page d'inscription du projet ap4"/>
+            <img src={ap4Mainpage} className='imgGalery' style={{aspectRatio: "9/20"}} alt="image de l'accueil du projet ap4" title="image de l'accueil du projet ap4"/>
+            <img src={ap4Commande} className='imgGalery' style={{aspectRatio: "9/20"}} alt="image de la page de commande du projet PshychoQuiz" title="image de la page de commande du projet ap4"/>
+            <img src={ap4Plus} className='imgGalery' style={{aspectRatio: "9/20"}} alt="image de la page plus du projet ap4" title="image de la page plus du projet ap4"/>
+          </Galery>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>

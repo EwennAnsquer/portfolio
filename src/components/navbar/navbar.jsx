@@ -32,9 +32,6 @@ export default function NavBar({ heroBannerHeight }) {
       <button className="link" onClick={() => scrollToSection('presentation')}>
         Présentation
       </button>
-      <button className="link" onClick={() => scrollToSection('skills')}>
-        Compétences
-      </button>
       <button className="link" onClick={() => scrollToSection('timeline')}>
         TimeLine
       </button>

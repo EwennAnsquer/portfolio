@@ -36,7 +36,7 @@ function App() {
                 <Navbar heroBannerHeight={heroBannerHeight}/>
                 <HeroBanner ref={heroBannerRef}/>
                 <Presentation />
-                <Skills />
+                {/* <Skills /> */}
                 <Timeline />
                 <Liste name="Certifications" Id="certif" fontSize="50px" fontWeigth="800">
                     <Certification name="Ansi SecNumAcademie" date="12/11/22" file={[["Ansi_SecNumAcademie", "https://dochub.com/m/shared-document/eansquer-ledantec/qA8ldYxVEkAZNZ8R6MJrpP/ansi-secnumacademie-pdf?dt=hVVuGk6J6Ai7xBVLac1B"]]}/>
@@ -111,7 +111,7 @@ function App() {
                                 </a>
                             </li>
                             <li>
-                                <a href={`https://dochub.com/m/shared-document/ansquer-ewenn/qd0E4NeKgrg60AdRJ9LYyj/tableau-de-synthese-epreuve-e4-bts-sio-2022-pdf?dt=GZisVsJX2xDyEqJyE6iq`} target='_blank'>
+                                <a href={`https://dochub.com/m/shared-document/ansquer-ewenn/mqNjP3BVW1bdr73R9yGzLk/tableau-de-synthese-epreuve-e4-bts-sio-2024-pdf?dt=qxNwT5G6fGfvjYufJ11Q`} target='_blank'>
                                     <PDFIcon width={"20px"} /> Tableau Épreuve E4.pdf
                                 </a>
                             </li>
