@@ -46,7 +46,7 @@ export default function Timeline() {
           className='vertical-timeline-element--work date' 
           iconStyle={{ background: '#fff', boxShadow: 'none', display: "flex", justifyContent: "center", alignItems: "center", border: "4px solid black"}}
           icon={<NOKIAIcon width={"80%"}/>}
-          date='15/09/22 à 21/10/22'
+          date='22/01/18 à 25/01/18'
           contentArrowStyle={{ borderRight: '7px solid #000' }}
           contentStyle={{backgroundColor: "#000", color: "#fff", boxShadow: "none"}}
           dateClassName={ "date" }
@@ -57,7 +57,7 @@ export default function Timeline() {
           className='vertical-timeline-element--work date' 
           iconStyle={{ background: '#fff', boxShadow: 'none', display: "flex", justifyContent: "center", alignItems: "center", border: "4px solid black"}}
           icon={<ARDUINOIcon width={"60%"}/>}
-          date='15/09/22 à 21/10/22'
+          date='Année Scolaire 2018-2019'
           contentArrowStyle={{ borderRight: '7px solid #000' }}
           contentStyle={{backgroundColor: "#000", color: "#fff", boxShadow: "none"}}
           dateClassName={ "date" }
@@ -68,7 +68,7 @@ export default function Timeline() {
           className='vertical-timeline-element--work date' 
           iconStyle={{ background: '#fff', boxShadow: 'none', display: "flex", justifyContent: "center", alignItems: "center", border: "4px solid black"}}
           icon={<ARDUINOIcon width={"60%"}/>}
-          date='15/09/22 à 21/10/22'
+          date='Année Scolaire 2019-2021'
           contentArrowStyle={{ borderRight: '7px solid #000' }}
           contentStyle={{backgroundColor: "#000", color: "#fff", boxShadow: "none"}}
           dateClassName={ "date" }
