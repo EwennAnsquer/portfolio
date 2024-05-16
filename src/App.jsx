@@ -84,6 +84,7 @@ function App() {
                     <Avenir name="Télécom SudParis" lieu="91011 Evry" formation="Informatique & Réseaux" />
                     <Avenir name="Licence 3" lieu="35042 RENNES" formation="mention Informatique parcours Informatique" />
                     <Avenir name="ESIR" lieu="35042 RENNES" formation="spécialité informatique 1ère année" />
+                    <Avenir name="PREPA ATS" lieu="22300 LANNION" formation="" />
                 </Liste>
                 <Footer>
                     <div className="fContainer">
