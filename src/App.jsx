@@ -72,7 +72,7 @@ function App() {
                         </div>
                     </div>
                 </Veille>
-                <Liste name="Avenir" Id="avenir" fontSize="50px" fontWeigth="800">
+                <Liste name="Poursuite d'étude" Id="avenir" fontSize="50px" fontWeigth="800">
                     <Avenir name="Cnam Sécurité Défense Saint-Brieuc" lieu="22400 PLOUFRAGAN" formation="Informatique & Réseaux" />
                     <Avenir name="Pôle Sup de La Salle" lieu="35706 RENNES" formation="Bachelor Sécurité Informatique" />
                     <Avenir name="ENSSAT" lieu="22300 LANNION" formation="Informatique" />

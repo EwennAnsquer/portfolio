@@ -42,7 +42,7 @@ export default function NavBar({ heroBannerHeight }) {
         Veille Informatique
       </button>
       <button className="link" onClick={() => scrollToSection('avenir')}>
-        Avenir
+        Poursuite d'étude
       </button>
       <button className="link" onClick={() => scrollToSection('contact')}>
         Contact
