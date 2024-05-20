@@ -19,7 +19,7 @@ export default function Certification({name,date,file}) {
               </a>
             ))
           ) : (
-            <p>nothing</p>
+            <p></p>
           )}
         </div>
     </div>
