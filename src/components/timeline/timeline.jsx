@@ -156,7 +156,7 @@ export default function Timeline() {
             <img src={imgNotificationAp3} className='imgGalery' style={{aspectRatio: "16/9"}} alt="image de la page admin des questions du projet PshychoQuiz" title="image de la page admin desd questions du projet PshychoQuiz"/>
           </Galery>
         </VerticalTimelineElement>
-        <VerticalTimelineElement 
+        {/* <VerticalTimelineElement 
           className='vertical-timeline-element--work date' 
           iconStyle={{ background: '#fff', boxShadow: 'none', display: "flex", justifyContent: "center", alignItems: "center" , border: "4px solid black"}}
           icon={<REACTIcon width={"70%"}/>}
@@ -166,12 +166,12 @@ export default function Timeline() {
           dateClassName={ "date" }
         >
           <h3 className="vertical-timeline-element-title">Mise en place d'un portfolio</h3>
-          {/* <p>
+          <p>
             Création d'un portfolio de manière individuel dans le but de retracer le parcour de proffessionnalisation et décrit les réalisations professionnelles élaborées au
             cours de la formation et l‟acquisition des compétences décrites dans le bloc de compétences « Support et mise à
             disposition de services informatiques ».
-          </p> */}
-        </VerticalTimelineElement>
+          </p> 
+        </VerticalTimelineElement> */}
         <VerticalTimelineElement 
           className='vertical-timeline-element--work date' 
           iconStyle={{ background: '#fff', boxShadow: 'none', display: "flex", justifyContent: "center", alignItems: "center", border: "4px solid black"}}
