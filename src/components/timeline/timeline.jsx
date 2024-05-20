@@ -42,7 +42,7 @@ export default function Timeline() {
     <div className='timeline' id='timeline'>
       <h2>TimeLine</h2>
       <VerticalTimeline lineColor='#000'>
-      <VerticalTimelineElement 
+      {/* <VerticalTimelineElement 
           className='vertical-timeline-element--work date' 
           iconStyle={{ background: '#fff', boxShadow: 'none', display: "flex", justifyContent: "center", alignItems: "center", border: "4px solid black"}}
           icon={<NOKIAIcon width={"80%"}/>}
@@ -74,7 +74,7 @@ export default function Timeline() {
           dateClassName={ "date" }
         >
           <h3 className="vertical-timeline-element-title">Première et Terminale STI2D option SIN</h3>
-        </VerticalTimelineElement>
+        </VerticalTimelineElement> */}
         <VerticalTimelineElement 
           className='vertical-timeline-element--work date' 
           iconStyle={{ background: '#fff', boxShadow: 'none', display: "flex", justifyContent: "center", alignItems: "center", border: "4px solid black"}}
